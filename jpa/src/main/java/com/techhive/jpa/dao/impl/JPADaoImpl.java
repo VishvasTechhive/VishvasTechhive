@@ -24,6 +24,8 @@ public class JPADaoImpl implements JPADao {
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("vishvas patel patel");
+			
+			System.out.println("master log");
 		}
 	}
 
