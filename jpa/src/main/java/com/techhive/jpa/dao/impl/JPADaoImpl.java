@@ -38,6 +38,8 @@ public class JPADaoImpl implements JPADao {
 			return (T) entityManager.find(t.getClass(), id);
 		} catch (Exception e) {
 			e.printStackTrace();
+			
+			System.out.println("vishvas j patel ");
 		}
 
 		return null;
