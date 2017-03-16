@@ -23,7 +23,7 @@ public class JPADaoImpl implements JPADao {
 			entityManager.persist(t);
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("vishvas");
+			System.out.println("vishvas patel patel");
 		}
 	}
 
